@@ -1,0 +1,30 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your total is 0"
+        android:id="@+id/txtTotal"
+        android:textSize="51dp"
+        android:gravity="center" />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        android:textSize="20dp"
+        android:id="@+id/btnAdd"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Subtract One"
+        android:textSize="20dp"
+        android:id="@+id/btnSub"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
